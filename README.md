@@ -1,8 +1,10 @@
 
 npm i 
-ng serve
-ng build
-To get request back you have to start project in local server
+
+ng serve (localhost:4200)
+
+ng build(For backend was used php file. To get request back you have to start project build(/dist) in local server)
+
 
 Create a login page with view, component(typescript), and a less(css) files
 Create also a child component, it will looks like a dropdown on the login page
