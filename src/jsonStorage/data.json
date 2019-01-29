@@ -1,0 +1,20 @@
+{
+	"accauntArray": [
+		{
+			"login": "login",
+			"password": "password"
+		},
+		{
+			"login": "someLogin",
+			"password": "somePassword"
+		},
+		{
+			"login": "anyLogin",
+			"password": "anyPassword"
+		},
+		{
+			"login": "oneMoreLogin",
+			"password": "oneMorePassword"
+		}
+	]
+}

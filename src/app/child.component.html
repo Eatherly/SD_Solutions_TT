@@ -1,0 +1,14 @@
+<div class="form-group">
+    <label>Choose login</label>
+    <select class="form-control selectData" name="login" (ngModelChange)="onLoginChange($event)" [(ngModel)]="userLogin">
+        <option  *ngFor="let login of accauntsBase" [value]="login.login">
+            {{login.login}}
+        </option>
+    </select>
+    <label>Choose password</label>
+    <select class="form-control selectData" name="password" (ngModelChange)="onPasswordChange($event)" [(ngModel)]="password">
+        <option  *ngFor="let password of accauntsBase" [value]="password.password">
+            {{password.password}}
+        </option>
+    </select>
+</div>
