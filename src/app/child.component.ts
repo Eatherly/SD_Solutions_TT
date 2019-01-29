@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
 import { HttpService} from './http.service';
 import {accauntsBase} from './accauntsBase';
 
-//import {Color} from './user';
+
        
 @Component({
     selector: 'child-app',
